@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="container">
+<div class="btn-group">
+    <button id="0" class="btn btn-outline-primary mt-3" onclick="showContinents()">Continents Data</button>
+    <button id="1" class="btn btn-outline-primary mt-3" onclick="showFormConfig()">Confirmed Cases History Data</button>
+    <button id="2" class="btn btn-outline-primary mt-3" onclick="showHoursStatistics()">Death Cases History Data</button>
+    <button id="3" class="btn btn-outline-primary mt-3" onclick="showCostStatistics()">Vaccine Data </button>
+</div>
+<div id="alert">
+
+</div>
+<table class="table table-responsive" id="courses-table">
+
+</table>
+<form id="courses-form" hidden>
+    <select class="col-12 offset-sm-2 col-sm-3 mt-4" name="name" id="country-name-options">
+        <option value hidden disabled selected>--Select course name--</option>
+    </select>
+    <select class="col-12 offset-sm-1 col-sm-3 mt-4" name="lecturer" id="period-options">
+        <option value hidden disabled selected>--Select course name--</option>
+    </select>
+    <button class="btn btn-outline-primary offset-2 col-3 mt-4" type="submit">Submit</button>
+    <button class="btn btn-outline-dark offset-1 col-3 mt-4" type="reset">Reset</button>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
